@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.active {
+  border-bottom: 3px solid white;
+}
+
+/* Estilos para animar los textos de las páginas */
+
+@font-face {
+  font-family: "MendIserif";
+  src: url("https://assets.codepen.io/527512/MendlSerifVF.ttf");
+}
+
+.title {
+  cursor: pointer;
+  font-family: "MendIserif", sans-serif;
+  font-size: 15vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-variation-settings: "wght" 100;
+  transition: all 1.5s;
+}
+
+.title:hover {
+  font-variation-settings: "wght" 900;
+}
